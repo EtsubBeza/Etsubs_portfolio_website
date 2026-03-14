@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Etsub | CS Graduate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+        </label>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">E<span>tsub</span></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>My <span>Projects</span></h1>
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Projects</span>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Dev</button>
+            <button class="filter-btn" data-filter="ai">AI/ML</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="devops">DevOps</button>
+        </div>
+
+        <div class="projects-grid extended">
+            <!-- Project 1 -->
+                <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project1.png" alt="Project 1">
+                </div>
+                <div class="project-content">
+                    <h3>Web-Based Class Scheduling System For DKU</h3>
+                    <p>A smart class and exam scheduling system for debark university.</p>
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>TensorFlow</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/EtsubBeza/dku-scheduler" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project2.png" alt="Project 2">
+                </div>
+                <div class="project-content">
+                    <h3>personal-portfolio-website</h3>
+                    <p>A responsive personal portfolio website built with modern web technologies.</p>
+                    <div class="tech-tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>js</span>
+                    
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/EtsubBeza/personal-portfolio-website" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://etsubbeza.github.io/personal-portfolio-website/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+          <!--
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project3.jpg" alt="Project 3">
+                </div>
+                <div class="project-content">
+                    <h3>DevOps Dashboard</h3>
+                    <p>Comprehensive monitoring dashboard for DevOps teams with real-time metrics.</p>
+                    <div class="tech-tags">
+                        <span>Vue.js</span>
+                        <span>Go</span>
+                        <span>Docker</span>
+                        <span>Prometheus</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        -->
+        </div>
+        <div class="view-all">
+            <a href="projects.html" class="btn secondary-btn">View All Projects <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+            <!-- Add more projects similarly -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+         <div class="footer-content">
+            <div class="footer-info">
+                <h3>Etsub</h3>
+                <p>Computer Science Graduate | Developer | Problem Solver</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/EtsubBeza" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/etsubbeza" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/etsubbeza" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Etsub. All rights reserved. | Designed with <i class="fas fa-heart"></i> for Web Development</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
